@@ -1,38 +1,50 @@
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<style>
-  .red-text {
-    color: red;
-  }
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <style>
+    .red-text {
+      color: red;
+    }
 
-  h2 {
-    font-family: Lobster, Monospace;
-  }
+    h2 {
+      font-family: Lobster, Monospace;
+    }
 
-  p {
-    font-size: 16px;
-    font-family: Monospace;
-  }
+    p {
+      font-size: 16px;
+      font-family: Monospace;
+    }
 
-  .thick-green-border {
-    border-color: green;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 50%;
-  }
+    .thick-green-border {
+      border-color: green;
+      border-width: 10px;
+      border-style: solid;
+      border-radius: 50%;
+    }
 
-  .smaller-image {
-    width: 100px;
-  }
-</style>
+    .smaller-image {
+      width: 100px;
+    }
+    </style>
 
-<h2 class="red-text">DONATE</h2>
+    <h2 class="red-text">DONATE</h2>
 
-<p>Click here to <a href="#">DONATE</a>.</p>
+    <p>Click here to <a href="#">DONATE</a>.</p>
 
-<a href="#"><img class="smaller-image thick-green-border" alt="people" src="img/people.jpg"></a>
+    <a href="#"><img class="smaller-image thick-green-border" alt="people" src="../Images/people.jpg"></a>
 
 
-</ol>
-<form action="/submit-donation">
-  <input type="text" placeholder="DONATE!">
-</form>
+    </ol>
+      <input type="text" id="js-amount" placeholder="DONATE!">
+      <button id="js-submit">Submit</button>
+      <script src="../js/main.js" charset="utf-8"></script>
+
+
+
+  </body>
+</html>
