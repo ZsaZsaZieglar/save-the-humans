@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font: normal 16px Helvetica, Arial, sans-serif;
+  margin-top: 60px;
+  background-color: rgb(200,200,200);
+}
+
+#sitename{
+  font-family: cursive;
+  font-size: 48px;
+  text-align: center;
+}
+
+#today{
+  font-family: monospace;
+  text-align: right;
+}
+
+#nav{
+  background-color:  DarkCyan;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#nav ul {
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#nav ul a {
+  color: white;
+  padding: 20px;
+  display: block;
+  margin-left: 150px;
+
+}
+
+#nav ul a:hover {
+  background-color: red;
+}
+
+#nav ul li {
+  float: left;
+}
+
+.author {
+  float: right;
+}
+
+.headline {
+  text-align: left;
+}
+img {
+  float: left;
+}
+  
+.feature {
+  float: left;
+  clear: both;
+}
+
+
+.headline2 {
+  float: left;
+}
